@@ -112,3 +112,6 @@
       .cardDiv>.div3>a{
         color: cornflowerblue;
       }
+      /* @media (maxWidth: '767px') {
+        .cardDiv{flex-direction: column;}
+      } */

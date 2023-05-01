@@ -1,0 +1,114 @@
+.movie-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 1rem;
+    width: 15rem;
+    margin-left: 1rem;
+    overflow: hidden;
+  }
+  
+  .movie-card__img-container {
+    /* flex: 1; */
+    height: 70%;
+    width: 100%;
+  }
+  
+  .movie-card__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+  }
+  
+  .movie-card__content {
+    padding: 16px;
+  }
+  
+  .movie-card__title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .movie-card__release-date {
+    margin: 0;
+    font-size: 16px;
+    color: #999;
+  }
+  .cardDiv{
+    display: flex;
+    width: 100%;
+    border: 3px solid;
+    margin-top: 1rem;
+  }
+  .cardDiv>.div1{
+    display: flex;
+    width: 10%;
+    padding: 1rem;
+    height: 5rem;
+  }
+  .cardDiv>.div1>img{
+    display: flex;
+    width: 100%;
+    border: 1px solid;
+  }
+  .cardDiv>.div2{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    border-right: 3px solid;
+  }
+  .cardDiv>.div2>.detailDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 1rem;
+    }
+  .cardDiv>.div2>.detailDiv>.nameDiv{
+    display: flex;
+    font-size: 1.3rem;
+    color: black;
+    font-weight: 600;
+    font-family: cursive;
+  }
+  .cardDiv>.div2>.detailDiv>.nickNameDiv{
+    display: flex;
+    font-size: 0.8rem;
+    color: black;
+    font-weight: 400;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 1rem;
+      }
+      .cardDiv>.div2>.detailDiv>.nickNameDiv>.nickNameSpan{
+        border-radius: 4px;
+        background: #eae8e8;
+        padding: 2px;
+        border: 2px solid;
+        font-family: cursive;
+        margin-right: 0.5rem;
+      }
+      .cardDiv>.div2>.likeDiv{
+        display: flex;
+        width: fit-content;
+        width: fit-content;
+        font-size: 1.1rem;
+        font-family: cursive;
+        padding-top: 1.4rem;
+        padding-right: 1rem;
+      }
+      .cardDiv>.div3{
+        display: flex;
+        font-size: 3.2rem;
+        align-items: center;
+        color: cornflowerblue;
+        padding: 1rem;
+      }
+      .cardDiv>.div3>a{
+        color: cornflowerblue;
+      }
